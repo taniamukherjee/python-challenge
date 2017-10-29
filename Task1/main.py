@@ -18,6 +18,10 @@ with open(csvpath, newline='') as csvfile:
         dates.append(row[0])
         revenue.append(row[1])
         i=i+1
+print ('-' * 50) #separationlines
+print ('-' * 50)
+print ("Financial Analysis")
+print ('~' * 18)
 print ("Total months:",(i-1) ) #print total month
 
 
@@ -61,6 +65,9 @@ print ("Total Revenue : ","$",revenue_total, sep='')
 print ("Average Revenue Change: ","$",Average)
 print ("Greatest increase in Revenue: ",date1," (",'$',max_change,")", sep='')
 print ("Greatest decrease in Revenue: ",date2," (","$",min_change,")", sep='') 
+print ('-' * 50) #separationlines
+print ('-' * 50)
+
 
 
 #the end
